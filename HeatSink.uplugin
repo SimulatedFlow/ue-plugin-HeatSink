@@ -1,27 +1,27 @@
 {
-  "FileVersion": 3,
-  "Version": 1,
-  "VersionName": "1.0.0",
-  "EngineVersion": "5.8.0",
-  "FriendlyName": "HeatSink - Weapon Heat, Overheat, Venting & Jams",
-  "Description": "A heat-based weapon is a rhythm, and the rhythm is set by four rules that are easy to get subtly wrong. Overheating is a LOCKOUT with its own duration, not 'wait until heat drops below the maximum' - otherwise the weapon comes back the instant heat falls one point and the player learns to tap at the boundary. Cooling starts after a delay that every shot resets, or heat quietly vanishes between the rounds of a burst. The shot that crosses the maximum still fires and then overheats, because refusing a trigger pull at ninety-nine percent heat reads as a broken gun. And a manual vent is a real trade: it is faster than waiting, but it costs a window in which you cannot shoot. Jams are a separate state with their own clearing time, with a chance that climbs only above a threshold you choose. Cooling is linear, so two half steps and one whole step agree and a frame-rate change does not change the weapon. Every rule is a pure function the component and the tests both call.",
-  "Category": "Gameplay",
-  "CreatedBy": "Silvan Teufel",
-  "CreatedByURL": "https://silvan.teufel-engineering.com",
-  "DocsURL": "https://wiki.teufel-engineering.com/en/HeatSink/documentation",
-  "SupportURL": "mailto:teufelsilvan@gmail.com",
-  "CanContainContent": true,
-  "IsBetaVersion": false,
-  "IsExperimentalVersion": false,
-  "Installed": false,
-  "Modules": [
-    {
-      "LoadingPhase": "PreDefault",
-      "PlatformAllowList": [
-        "Win64"
-      ],
-      "Name": "HeatSink",
-      "Type": "Runtime"
-    }
-  ]
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"EngineVersion": "5.8.0",
+	"FriendlyName": "HeatSink - Weapon Heat, Overheat, Venting & Jams",
+	"Description": "A heat-based weapon is a rhythm, and the rhythm is set by four rules that are easy to get subtly wrong. Overheating is a LOCKOUT with its own duration, not 'wait until heat drops below the maximum' - otherwise the weapon comes back the instant heat falls one point and the player learns to tap at the boundary. Cooling starts after a delay that every shot resets, or heat quietly vanishes between the rounds of a burst. The shot that crosses the maximum still fires and then overheats, because refusing a trigger pull at ninety-nine percent heat reads as a broken gun. And a manual vent is a real trade: it is faster than waiting, but it costs a window in which you cannot shoot. Jams are a separate state with their own clearing time, with a chance that climbs only above a threshold you choose. Cooling is linear, so two half steps and one whole step agree and a frame-rate change does not change the weapon. Every rule is a pure function the component and the tests both call.",
+	"Category": "Gameplay",
+	"CreatedBy": "Silvan Teufel",
+	"CreatedByURL": "https://silvan.teufel-engineering.com",
+	"DocsURL": "https://wiki.teufel-engineering.com/en/HeatSink/documentation",
+	"SupportURL": "mailto:teufelsilvan@gmail.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"Name": "HeatSink",
+			"Type": "Runtime"
+		}
+	]
 }
